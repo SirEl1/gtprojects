@@ -11,12 +11,12 @@ Therefore it is possible it might not be compatible with newer versions of the i
 For this project I used the angular-translate module (https://github.com/angular-translate/angular-translate)
 In order to make it work I added a few bower components to this project over the terminal:
 </p>
-<code><pre>
+<pre>
     bower install angular-translate
     bower install angular-translate-storage-cookie
     bower install angular-translate-loader-static-files
     bower install angular-translate-storage-local
-</pre></code>
+</pre>
 <p>
 Since I was getting an error, that there is a problem with angular-cookies I looked up a newer implementation of
 this component. Currently the version of angular-cookies.min.js is 1.6.1 which eventually worked.
@@ -28,17 +28,17 @@ this component. Currently the version of angular-cookies.min.js is 1.6.1 which e
 For the gulp task to work I had to install gulp first via npm and a few other gulp modules with the following 
 commands in the terminal:
 </p>
-<code><pre>
+<pre>
     npm install gulp
     npm install gulp-sass --save-dev
     npm install gulp-clean-css --save-dev
     npm install gulp-rename --save-dev
-</pre></code>    
+</pre>    
 <p>
 I added the new gulp task at the end of gulpfile.js (in the root directory). This particular gulp task will be 
 executed every time the application is launched because I linked it inside the ionic.project file (in the root directory):
 </p>
-<code><pre>
+<pre>
     {
       "name": "testelshan",
       "app_id": "",
@@ -46,7 +46,7 @@ executed every time the application is launched because I linked it inside the i
         "copyi18n"
       ]
     }
-</pre></code>
+</pre>
 
 <p>
 In the root folder there is a file inside i18n/es.json which is automatically being copied by the gulp task into 
@@ -58,15 +58,15 @@ the folder www/assets/i18n/ folder.
 <p>
 For starting the application all you need to is either go into the root directory over terminal and run the command:
 </p>
-<code><pre>
+<pre>
   ionic serve
-</pre></code>
+</pre>
 <p>
 For starting the application in the iOS simulator go into the root directory over terminal and run the command:
 </p>
-<code><pre>
+<pre>
   ionic emulate ios
-</pre></code> 
+</pre> 
 <p>
 It is possible to open the Xcode project from testelshan/platforms/ios/testelshan.xcodeproj and run it from directly from 
 Xcode.
