@@ -68,12 +68,12 @@ For starting the application in the iOS simulator go into the root directory ove
   ionic emulate ios
 </pre> 
 <p>
-It is possible to open the Xcode project from testelshan/platforms/ios/testelshan.xcodeproj and run it from directly from 
+It is possible to open the Xcode project from testelshan/platforms/ios/testelshan.xcodeproj and run it directly from 
 Xcode.
 </p>
 
 <p>
-The version Xcode I used is 8.3.3 (8E3004b) and I tested on an iPhone 6 and an iPhone 5 simulator.
+The version of Xcode I used is 8.3.3 (8E3004b) and I tested on an iPhone 6 and an iPhone 5 simulator.
 </p>
 
 <h2>UI design & use cases</h2>
