@@ -1,0 +1,21 @@
+{
+  "LOGIN": "Einloggen",
+  "REGISTER": "Registrierung",
+  "ENGLISH": "Englisch",
+  "GERMAN":  "Deutsch",
+  "VALIDATION":  
+  		{
+  			"EMAILPLAHOLDER": "Deine E-Mail-Addresse",
+  			"PASSPLAHOLDER": "Dein Passwort",
+  			"EMAILREQUIRED": "* E-Mail wird benötigt",
+  			"EMAILINVALID": "* E-Mail ist ungültig",
+  			"EMAILSHORT": "* E-Mail muss länger als 5 Zeichen sein",
+  			"PASSREQUIRED": "* Passwort wird benötigt",
+  			"PASSSHORT": "* Passwort muss um mind. 5 Zeichen"
+  		},
+  "MSGTITLE": "Title: ",
+  "MSGBODY": "Message: ",
+  "CANCEL": "Abbrechen",
+  "SEND": "Senden",
+  "BACK": "Zurück"
+}

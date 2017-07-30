@@ -1,0 +1,25 @@
+<ion-modal-view view-title="Login">
+  <ion-content class="padding">
+    <form name="myForm" novalidate class="padding" style="position:relative; top:6vh">
+        <div class="list">
+            <label class="item item-input">
+                <input translate type="email" name="username" placeholder="{{ 'VALIDATION.EMAILPLAHOLDER' | translate }}" ng-model="user.email" ng-minlength="5" required>
+            </label>
+            <label class="item item-input">
+                <input translate type="password" name="password" placeholder="{{ 'VALIDATION.PASSPLAHOLDER' | translate }}"  ng-model="user.password" ng-minlength="6" required>
+            </label>
+        </div>
+        <div class="padding">
+            <p ng-show="myForm.username.$error.required" translate>VALIDATION.EMAILREQUIRED</p>
+            <p ng-show="myForm.username.$invalid && !myForm.username.$pristine" translate>VALIDATION.EMAILINVALID</p>
+            <p ng-show="myForm.username.$error.minlength" translate>VALIDATION.EMAILSHORT</p>
+            <p ng-show="myForm.password.$error.required" translate>VALIDATION.PASSREQUIRED</p>
+            <p ng-show="myForm.password.$error.minlength" translate>VALIDATION.PASSSHORT</p>
+        </div>
+        <div class="padding">
+            <button type="submit" class="button button-block button-positive"  ng-click="login()" ng-disabled="myForm.$invalid" translate>SEND</button>
+            <button class="button button-primary" style="float:right" ng-click="closeLoginModal()" translate>CANCEL</button>
+        </div>
+	</form>
+  </ion-content>
+</ion-modal-view>

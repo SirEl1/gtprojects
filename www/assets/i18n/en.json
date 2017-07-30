@@ -1,0 +1,21 @@
+{
+  "LOGIN": "Login",
+  "REGISTER": "Register",
+  "ENGLISH": "English",
+  "GERMAN":  "German",
+  "VALIDATION":  
+  		{
+  			"EMAILPLAHOLDER": "Your E-mail address",
+  			"PASSPLAHOLDER": "Your password",
+  			"EMAILREQUIRED": "* E-mail is required",
+  			"EMAILINVALID": "* E-mail is not valid",
+  			"EMAILSHORT": "* E-mail must be longer than 5 characters",
+  			"PASSREQUIRED": "* Password is required",
+  			"PASSSHORT": "* Password must be longer than 6 characters"
+  		},
+  "MSGTITLE": "Title: ",
+  "MSGBODY": "Message: ",
+  "CANCEL": "Cancel",
+  "SEND": "Send",
+  "BACK": "Back"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "testelshan",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "copyi18n"
+  ]
+}
