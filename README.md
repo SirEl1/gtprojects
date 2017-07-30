@@ -78,20 +78,24 @@ The version Xcode I used is 8.3.3 (8E3004b) and I tested on an iPhone 6 and an i
 
 <h2>UI design & use cases</h2>
 <h3>First Screen:</h3>
-<p><pre>
-    - After launching the app in the header bar on should shee 2 blue buttons for logging in and registering.
-    - Clicking the Login button changes opens a modal view where one can type in an E-mail address and a password
-      which get validated instantly.
-    - The register button doesn't have any functionality since it was not specified.
-    - In the middle of the first screen is a dropdown box for changing the UI language
-</pre></p>
+<p>
+<ul>
+	<li>- After launching the app in the header bar on should shee 2 blue buttons for logging in and registering.</li>
+    <li>- Clicking the Login button changes opens a modal view where one can type in an E-mail address and a password
+      which get validated instantly.</li>
+    <li>- The register button doesn't have any functionality since it was not specified.</li>
+    <li>- In the middle of the first screen is a dropdown box for changing the UI language</li>
+</ul>
+</p>
 
 <h3>Second Screen:</h3>
-<p><pre>
-    - If the E-mail address and the password are valid the Send button is enabled and clicking on it will
-      navigate to the List with JSON messages retrieved via AJAX
-    - The messages are shown in a list with a title and a message body of the downloaded "posts"
-</pre></p>
+<p>
+<ul>
+	<li>- If the E-mail address and the password are valid the Send button is enabled and clicking on it will
+      navigate to the List with JSON messages retrieved via AJAX</li>
+    <li>- The messages are shown in a list with a title and a message body of the downloaded "posts"</li>
+</ul>
+</p>
 
 
 
